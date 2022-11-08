@@ -5,12 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modify Right Click</title>
+    <title>Context Menu</title>
     <link rel=stylesheet href="./app.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
+    <h2 align="center">Custom Context Menu</h2>
+
+    <div id="context-menu">
+        <div>
+            <i class="fa-regular fa-folder"></i>
+            new Folder
+        </div>
+        <div>
+            <i class="fa-solid fa-arrow-right"></i>
+            move
+        </div>
+        <div>
+            <i class="fa-solid fa-scissors"></i>
+            cut
+        </div>
+        <div>
+            <i class="fa-regular fa-copy"></i>
+            Copy
+        </div>
+        <div>
+            <i class="fa-regular fa-paste"></i>
+            Paste
+        </div>
+    </div>
 
     <script src="./client.js"></script>
 
